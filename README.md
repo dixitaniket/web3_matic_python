@@ -11,7 +11,7 @@ sudo cp $HOME/.py-solc/solc-v0.4.25/bin/solc /usr/local/bin
 ## if there is permission error then 
 ```
 cd /usr/local/bin
-sudo chown -R <username of machine> solc
+sudo chown -R $USER solc
 
 ```
 - to verify permissions
